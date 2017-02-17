@@ -24,8 +24,12 @@ function testcase(name,tests){
 	for(var i=0;i<10;i++){
 		console.log(i);
 	}
+	var i=0;
 
-
+	for(var j=0;j<100;j++){
+		i=i+1;
+		console.log(j*i)
+	}
 
 }
 
