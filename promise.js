@@ -1,28 +1,9 @@
-let promiseToCleanTheRoom = new Promise(function(resolve, reject){
-	let isClean = true;
-	if(isClean){
-		resolve('Clean');
-	} else{
-		reject(new Error('not clean'));
-	}
+var testvalue = () => {
+	return "darna";
+}
+
+var test = Promise(function(rej,res){
+	cout<< res <<endl;
 });
 
-promiseToCleanTheRoom.then(function(fromResolve){
-	console.log('the room is ' + fromResolve)
-}).catch(function(fromReject){
-	console.log('the room is ' + fromReject);
-})
-
-
-
-
-let promiseToClean = new Promise(function(resolve,reject){});
-
-
-
-
-
-
-
-
-
+cout << test << endl;
