@@ -1,9 +1,11 @@
-var testvalue = () => {
-	return "darna";
+temp = () => {
+	return "darsahn";
 }
 
-var test = Promise(function(rej,res){
-	cout<< res <<endl;
-});
 
-cout << test << endl;
+
+var name = () => {
+	return "murthy";
+}
+
+name()
