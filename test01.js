@@ -1,6 +1,19 @@
-const value = () => {
-	var name="darshan"
+// describe("A suite", function() {
+//   it("contains spec with an expectation", function() {
+//     expect(true).toBe(true);
+//   });
+// });
+// const value = () =>{
+// 	return "nameVlaue"
+// }
 
-	return name;
+// describe("A suite"{
+// 	it("contains",function(){
 
-}
+// 	};
+// });
+
+
+
+
+// console.log(value())
