@@ -8,3 +8,11 @@ var name = new Promise(function(reject,response){
 });
 
 console.log(name)
+
+
+var tem = new Promise(function(reject,response){
+	var name="time";
+	if(name){
+		reject("success")
+	}
+});
