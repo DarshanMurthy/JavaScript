@@ -1,16 +1,16 @@
-function Person(lname,rname){
+function Person(fname,lname,color){
+	this.fname=fname;
 	this.lname=lname;
-	this.rname=rname;
+	this.color=color;
 }
+Person.prototype.test="map1";
+test = new Person("name","lastname","black");
+console.log(test.test);
 
-Person.prototype.eyecolor="red";
-var p1 = new Person("darshan","murthy");
-console.log(p1)
-
-function Test(lname,rname){
-	this.lname=lname;
-	this.rname=rname;
+function Test(question1, question2){
+	this.question1= question1;
+	this.question2 = question2;
 }
-Test.prototype.value="10";
-test = new Test("name","ideas");
-console.log(test)
+Test.prototype.question3="What is your name";
+test= new Test("whatlife","late?");
+console.log(test.question3)
