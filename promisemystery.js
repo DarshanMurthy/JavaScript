@@ -9,4 +9,5 @@ console.log(test)
 test = function node(name1){
 	this.name1=name1;
 }
+
 test("name");
