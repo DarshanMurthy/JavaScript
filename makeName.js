@@ -1,5 +1,5 @@
-const value =(name)=>{
-  return{
-    
-  }
+const value =(value) => {
+  console.log(value)
 }
+
+value("darshan")
