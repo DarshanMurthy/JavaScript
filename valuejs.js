@@ -1,2 +1,2 @@
-var name = Object.assign({},{"name":"Darshan"})
-console.log(name["name"])
+var name = Object.assign({},{"name":"Darshan"},{"name":"test"})
+console.log(name)
