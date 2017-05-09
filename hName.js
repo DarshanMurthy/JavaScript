@@ -14,7 +14,18 @@ var test23 = new Promise((reject,resolve) =>{
     resolve(9*7)
 });
 
-Promise.all([temp,test1,test23]).then((M)=> {
-    console.log(M)
+var nameKind = new Promise((reject, resolve)=>{
+    var name=10;
+    if(name<10){
+        reject('test work')
+    }
 })
+
+
+
+Promise.all([temp,test1,test23,nameKind]).then((M)=> {
+    
+})
+
+
 
