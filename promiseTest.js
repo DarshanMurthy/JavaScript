@@ -1,15 +1,46 @@
-temp=Object.assign({},{"name":"darshan"})
-temp2=Object.assign({},{"temp":"darshan"})
-var p1 = Promise.resolve(temp2)
-temp=Promise.resolve(9*9+1)
-visit = Promise.resolve(9*4+9)
-visitTest = Promise.resolve(8*8)
-console.log(visitTest)
+var name = new Promise((request,resolve)=> {
+    var test=10;
+    resolve(test*test)
+});
 
-var temp23 = function(val){
-  val =val+10;
-  value = return Promise.resolve(100*9)
+var temp = new Promise((resolve,reject)=>{
+    var tp=100
+    resolve(tp*tp)
+});
 
-  return value
-}
-console.log(temp23(19))
+// var time = new Promise((request, resolve)=>{
+//     resolve(100* 100);
+// });
+
+
+
+// var node = new Promise((request, resolve) =>{
+//     var name=100;
+//     if(name){
+//         resolve("Success");
+//     }
+// });
+
+
+// var node1 = new Promise((request, resolve)=>{
+//     var temp = 100;
+//     resolve(10 * 100)
+
+// });
+
+
+// var tempNode = new Promise((request, resolve)=>{
+//     var company =100
+//     if(company){
+//         resolve(10*10)
+//     }
+// })
+
+
+
+
+
+
+
+
+

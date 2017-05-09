@@ -1,5 +1,0 @@
-test = Object.assign({},{name:"darshan",time:"time"})
-test1 = Object.assign(test,{"life":"rocks"})
-console.log(test1['name'])
-test2 = Object.assign({},{life:"rocks"})
-console.log(test2)
