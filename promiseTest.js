@@ -8,33 +8,13 @@ var temp = new Promise((resolve,reject)=>{
     resolve(tp*tp)
 });
 
-// var time = new Promise((request, resolve)=>{
-//     resolve(100* 100);
-// });
+Promise.all([name,temp]).then(values=>{
+    console.log(values)
+}, reason =>{
+    console.log(reason)
 
+});
 
-
-// var node = new Promise((request, resolve) =>{
-//     var name=100;
-//     if(name){
-//         resolve("Success");
-//     }
-// });
-
-
-// var node1 = new Promise((request, resolve)=>{
-//     var temp = 100;
-//     resolve(10 * 100)
-
-// });
-
-
-// var tempNode = new Promise((request, resolve)=>{
-//     var company =100
-//     if(company){
-//         resolve(10*10)
-//     }
-// })
 
 
 
